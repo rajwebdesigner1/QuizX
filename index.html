@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="brand">
+                <h1>Quiz App</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://rajwebdesigner1.github.io/More-apps/">More webpages</a></li>
+                <li><a href="https://rajwebdesigner1.github.io/About-the-quiz-app/">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="question">
+            <h2 id="question-text">What is the latest version of html?</h2>
+        </div>
+        <div class="options">
+            <p class="option" onclick="checkAnswer(0)">html1</p>
+            <p class="option" onclick="checkAnswer(1)">html3</p>
+            <p class="option" onclick="checkAnswer(2)">html5</p>
+            <p class="option" onclick="checkAnswer(3)">html7</p>
+        </div>
+        <div id="result"></div>
+
+        <!-- Next button -->
+        <button id="next-button">Next</button>
+    </div>
+
+    <footer class="footer">
+        <p>With <span class="heart">&hearts;</span> by <span class="names">Rajanya & Kaushik</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
